@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Show Gamemode GUI",
+    "keyBindingCategoryKey": "open_gamemode",
+    "onKeyPressed": {
+      "name": "ShowGMFunct"
+    }
+  }
+}

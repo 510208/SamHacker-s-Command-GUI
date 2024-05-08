@@ -1,0 +1,8 @@
+{
+  "gui.samhackers_command_gui.gm_gui.button_spector": "Spectaor",
+  "gui.samhackers_command_gui.gm_gui.button_adventure": "Adventure",
+  "gui.samhackers_command_gui.gm_gui.button_survival": "Survival",
+  "key.samhackers_command_gui.show_gm": "Show Gamemode GUI",
+  "gui.samhackers_command_gui.gm_gui.button_creative": "Creative",
+  "gui.samhackers_command_gui.gm_gui.label_gamemode_changer": "Gamemode Changer"
+}

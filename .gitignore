@@ -1,0 +1,5 @@
+# MCreator-generated files
+.gradle/
+.mcreator/
+.idea/
+build/

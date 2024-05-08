@@ -1,0 +1,97 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 116,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_creative",
+          "text": "Creative",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GmCreative"
+          },
+          "width": 149,
+          "height": 20,
+          "x": 140,
+          "y": 103
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_survival",
+          "text": "Survival",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GmSurvival"
+          },
+          "width": 149,
+          "height": 20,
+          "x": 140,
+          "y": 81
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_adventure",
+          "text": "Adventure",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GmAdventure"
+          },
+          "width": 149,
+          "height": 20,
+          "x": 140,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_spector",
+          "text": "Spectaor",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GmSpector"
+          },
+          "width": 149,
+          "height": 20,
+          "x": 140,
+          "y": 147
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gamemode_changer",
+          "text": {
+            "fixedValue": "Gamemode Changer"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 140,
+          "y": 70
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "samhackers_command_gui",
+  "version": "1.0.0",
+  "name": "SamHacker's Command GUI",
+  "description": "A command gui easier than Forge's World Handler and it runned on Fabric... By MCreator  ",
+  "authors": [
+    "SamHacker"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/samhackers-command-gui",
+    "sources": ""
+  },
+  "license": "GNU General Public License version 3 (GPLv3)",
+  "icon": "assets/samhackers_command_gui/icon.png",
+  "accessWidener": "samhackers_command_gui.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.samhacker.scg.SamhackersCommandGuiMod"
+    ],
+    "client": [
+      "net.samhacker.scg.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}

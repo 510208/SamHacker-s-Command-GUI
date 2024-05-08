@@ -1,0 +1,190 @@
+{
+  "mod_elements": [
+    {
+      "name": "Gamemode",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/samhacker/scg/world/inventory/GamemodeMenu.java",
+          "src/main/java/net/samhacker/scg/client/gui/GamemodeScreen.java",
+          "src/main/java/net/samhacker/scg/network/GamemodeButtonMessage.java"
+        ]
+      },
+      "path": "~/gamemode"
+    },
+    {
+      "name": "GmCreative",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_creative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/samhacker/scg/procedures/GmCreativeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/gamemode"
+    },
+    {
+      "name": "GmSurvival",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_survival",
+      "metadata": {
+        "files": [
+          "src/main/java/net/samhacker/scg/procedures/GmSurvivalProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/gamemode"
+    },
+    {
+      "name": "GmSpector",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_spector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/samhacker/scg/procedures/GmSpectorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/gamemode"
+    },
+    {
+      "name": "GmAdventure",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_adventure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/samhacker/scg/procedures/GmAdventureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/gamemode"
+    },
+    {
+      "name": "ShowGM",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_gm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/samhacker/scg/network/ShowGMMessage.java"
+        ]
+      },
+      "path": "~/gamemode"
+    },
+    {
+      "name": "ShowGMFunct",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_gm_funct",
+      "metadata": {
+        "files": [
+          "src/main/java/net/samhacker/scg/procedures/ShowGMFunctProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/gamemode"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.samhackers_command_gui.gm_gui.button_spector": "Spectaor",
+      "gui.samhackers_command_gui.gm_gui.button_adventure": "Adventure",
+      "gui.samhackers_command_gui.gm_gui.button_survival": "Survival",
+      "key.samhackers_command_gui.show_gm": "Show Gamemode GUI",
+      "gui.samhackers_command_gui.gm_gui.button_creative": "Creative",
+      "gui.samhackers_command_gui.gm_gui.label_gamemode_changer": "Gamemode Changer"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "gamemode",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "samhackers_command_gui",
+    "modName": "SamHacker\u0027s Command GUI",
+    "version": "1.0.0",
+    "description": "A command gui easier than Forge\u0027s World Handler and it runned on Fabric... By MCreator  ",
+    "author": "SamHacker",
+    "websiteURL": "https://modrinth.com/mod/samhackers-command-gui",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo_cover",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Build by MCreator, SamHacker using Heart",
+    "modElementsPackage": "net.samhacker.scg",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
